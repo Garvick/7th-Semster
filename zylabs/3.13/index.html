@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Starting Lineup</title>
+</head>
+<body>
+   <h1>Starting Lineup</h1>
+   <form method="post">
+   <div>
+      <p>Status:</p>
+      <input type="radio" id="status" name="status" value="draft">
+      <label for="status">Draft</label><br>
+      <input type="radio" id="status" name="status" value="status">
+      <label for="status">final</label><br>
+   </div>
+   <div>
+      <label for="date">Date:</label>
+      <select id="date" name="gameDate" required>
+         <option value="">Choose one...</option>
+         <option>March 20</option>
+         <option>March 24</option>
+         <option>April 2</option>
+         <option>April 6</option>
+         <option>April 13</option>
+      </select>
+   </div>
+   <div>
+      <label for="players">Players:</label>
+      <select id="players" name="players" required>
+         <option value="">Choose one...</option>
+         <input>Aarav Agarwal</option>
+         <option>Ava Johnson</option>
+         <option>Julio Ortiz</option>
+         <option>Liam Rubio</option>
+         <option>Emma Witherspoon</option>
+      </select>
+   </div>
+   <div>
+      <button>Submit</button>
+   </div>
+</form>
+</body>
+
+</html>
